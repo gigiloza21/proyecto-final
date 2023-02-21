@@ -1,0 +1,145 @@
+/**
+.skills{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.skills-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills-skills{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px rgb(6, 6, 39);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.skills-list{
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(min-width: 950px){
+    
+    .skills-title{
+        font-size: 50px;
+    }
+    .skills-skills{
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+*/
+
+.skills{
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.menu-menu{
+    position: relative;
+    border: 1px solid #1FDAB3;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.menu-menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #1FDAB3;
+    opacity: 0.5;
+}
+
+#html-menu{
+    animation: html-barra 1s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-menu{
+    animation: css-barra 1s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#js-menu{
+    animation: js-barra 1s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#python-menu{
+    animation: python-barra 1s forwards;
+}
+
+@keyframes python-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#github-menu{
+    animation: github-barra 1s forwards;
+}
+
+@keyframes github-barra{
+    100%{
+        width: 75%;
+    }
+}
+    
+
+.skills-title{
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media(min-width: 950px){
+    
+    .skills-title{
+        font-size: 30px;
+    }
+    .skills-skills{
+        font-size: 25px;
+        margin: 15px;
+    }
+
+}
+
+
